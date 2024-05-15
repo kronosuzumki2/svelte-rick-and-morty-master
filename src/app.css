@@ -1,0 +1,62 @@
+body {
+  background: url('https://images.alphacoders.com/133/1330376.png') no-repeat center center fixed; /* Imagen de fondo del portal */
+  background-size: cover; /* Para que la imagen cubra toda la pantalla */
+  color: white;
+}
+
+.title {
+  font-size: 2.7rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 20px; /* Agrega un poco de margen superior */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Añade un efecto de sombra al texto para mejor legibilidad */
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+  padding: 20px; /* Añade padding para separar el contenido del borde */
+  background: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para mejor legibilidad */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 3px;
+  background: #ffc107; /* Cambia el color de fondo a un amarillo más brillante */
+  font-weight: bold;
+  margin-bottom: 2px;
+  transition: background 0.3s; /* Añade una transición suave para el hover */
+}
+
+.btn:hover {
+  background: #ffca2c; /* Color de fondo al pasar el mouse */
+}
+
+.character {
+  background: rgba(16, 16, 16, 0.9); /* Fondo semi-transparente */
+  text-align: center;
+  border-radius: 5px;
+  transition: transform 0.3s; /* Añade una transición suave para el hover */
+}
+
+.character:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
+
+.character img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
